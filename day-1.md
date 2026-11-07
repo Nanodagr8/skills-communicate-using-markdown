@@ -11,3 +11,9 @@ Today I will improve GitHub documentation and engineering communication.
 ## Review
 
 I practiced issue-driven development, unit tests, PR review, and verified completion signals.
+
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org):
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
